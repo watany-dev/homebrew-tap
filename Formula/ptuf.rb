@@ -1,25 +1,25 @@
 class Ptuf < Formula
   desc "PreToolUseFilter: a generic guardrail layer for coding agents"
   homepage "https://github.com/watany-dev/ptuf"
-  version "0.4.0"
+  version "0.4.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.0/ptuf-aarch64-apple-darwin.tar.gz"
-      sha256 "59b36b5ab6ce17beb00b297703237d40ea90f3afc5bb718c8c2f64b155948bf9"
+      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.1/ptuf-aarch64-apple-darwin.tar.gz"
+      sha256 "3d08f432d34dffd615c594bf7604bf8f7c4688488483089f788f03b3055334e7"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.0/ptuf-x86_64-apple-darwin.tar.gz"
-      sha256 "d7aeee365c068690e723ffff72a948886e461ffe2a958bf743eecd1061dcb255"
+      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.1/ptuf-x86_64-apple-darwin.tar.gz"
+      sha256 "7ec5d95e61ea42ecdd21ba618218dbbcfc97dd75de71524014dc9f7c7ec033a5"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.0/ptuf-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "6b4ba3d089b3f377662f20fe53ed518508954280cdc25116ac8e63aab6eb9bf9"
+      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.1/ptuf-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "2527afd4f7e2e4f45b418bacbe78dc67de2e920d50d021e352837486220d7f54"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.0/ptuf-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "1466426b425cc74dcd5eb5997221c84a5000d218d288e4dd4f18ca83b6523050"
+      url "https://github.com/watany-dev/ptuf/releases/download/v0.4.1/ptuf-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "04938783f7e83d714c5340fb73096568afd4c18546942199953a258727d78a4c"
     end
   end
   license "Apache-2.0"
